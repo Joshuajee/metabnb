@@ -1,0 +1,19 @@
+
+.connectBtn {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 20px;
+    color: #FFF;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+.navLinks {
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8em;
+    color: #434343;
+}
