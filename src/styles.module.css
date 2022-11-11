@@ -110,3 +110,17 @@
     border-radius: 8px;
     color: #A02279;
 }
+
+
+.footer {
+    background: #1D1D1E;
+    color: #FFF;
+    height:  322px;
+}
+
+.footer h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}

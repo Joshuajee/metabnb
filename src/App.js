@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Footer from "./components/utils/Footer";
 import TopNav from "./components/utils/TopNav";
 import HomePage from "./pages/HomePage";
 
@@ -18,7 +19,7 @@ function App() {
     <div>
       <TopNav />
       <RouterProvider router={router} />
-
+      <Footer />
     </div>
   );
 }
