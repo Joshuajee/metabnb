@@ -1,8 +1,4 @@
-import house1 from "./../assets/cards/house1.png";
-import metamask from "./../assets/metamask.png";
-import opensea from "./../assets/opensea.png";
 import rating from "./../assets/rating.png";
-
 import styles from "./../styles.module.css";
 
 
@@ -12,7 +8,7 @@ const AssetCard = ({asset}) => {
         <div className={`${styles.assetCard} p-4`}>
            
             <div className={styles.assetCard}>
-                <img src={house1} alt={"mb-token"}/>
+                <img src={asset.image} alt={"house"}/>
             </div>
 
             <div className="flex justify-between my-2">
