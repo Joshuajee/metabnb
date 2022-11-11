@@ -1,3 +1,4 @@
+import CompanySection from "./components/CompanySection";
 import HeroSection from "./components/HeroSection";
 import TopNav from "./components/TopNav";
 
@@ -6,6 +7,11 @@ function App() {
     <div>
       <TopNav />
       <HeroSection />
+      <CompanySection />
+      
+
+
+
     </div>
   );
 }
