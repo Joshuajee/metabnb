@@ -60,3 +60,33 @@
     height: 70px;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
+
+.headingTwo {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+
+
+.assetCard {
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+    max-width: 260px;
+    max-height: 372px;
+}
+
+.assetCard .image {
+    left: 16px;
+    top: 16px;
+    border: 1px solid #D7D7D7;
+    border-radius: 15px;
+}
+
+.assetCard > div > text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #434343;
+}
