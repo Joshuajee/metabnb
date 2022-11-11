@@ -1,8 +1,8 @@
-import mbToken from "./../assets/mb-token.png";
-import metamask from "./../assets/metamask.png";
-import opensea from "./../assets/opensea.png";
+import mbToken from "./../../assets/mb-token.png";
+import metamask from "./../../assets/metamask.png";
+import opensea from "./../../assets/opensea.png";
 
-import styles from "./../styles.module.css";
+import styles from "./../../styles.module.css";
 
 
 

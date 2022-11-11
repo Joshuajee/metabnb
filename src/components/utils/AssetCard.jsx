@@ -1,5 +1,5 @@
-import rating from "./../assets/rating.png";
-import styles from "./../styles.module.css";
+import rating from "./../../assets/rating.png";
+import styles from "./../../styles.module.css";
 
 
 

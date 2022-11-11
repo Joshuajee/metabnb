@@ -1,7 +1,7 @@
-import AssetCard from "./../components/AssetCard";
-import CollectionContainer from "./../components/CollectionContainer";
-import CompanySection from "./../components/CompanySection";
-import HeroSection from "./../components/HeroSection";
+import AssetCard from "../components/utils/AssetCard";
+import CollectionContainer from "../components/utils/CollectionContainer";
+import CompanySection from "../components/homepage/CompanySection";
+import HeroSection from "../components/homepage/HeroSection";
 import styles from "./../styles.module.css";
 
 import house1 from "./../assets/cards/house1.png";

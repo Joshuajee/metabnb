@@ -1,5 +1,5 @@
-import logo from "./../assets/logo.png";
-import styles from "./../styles.module.css";
+import logo from "./../../assets/logo.png";
+import styles from "./../../styles.module.css";
 
 const links = [
     {name: "Home", link: "#"},

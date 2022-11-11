@@ -2,7 +2,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import TopNav from "./components/TopNav";
+import TopNav from "./components/utils/TopNav";
 import HomePage from "./pages/HomePage";
 
 
