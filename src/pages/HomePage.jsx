@@ -12,6 +12,7 @@ import house5 from "./../assets/cards/house5.png";
 import house6 from "./../assets/cards/house6.png";
 import house7 from "./../assets/cards/house7.png";
 import house8 from "./../assets/cards/house8.png";
+import CallToAction from "../components/homepage/CallToAction";
   
 const assets = [
     {   image: house2   },
@@ -43,6 +44,8 @@ function HomePage() {
                 })
                 }
             </CollectionContainer>
+
+            <CallToAction />
 
         </div>
     );
