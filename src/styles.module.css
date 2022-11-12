@@ -57,7 +57,7 @@
 }
 
 .company {
-    height: 70px;
+    height: 250px;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 
@@ -137,6 +137,10 @@
     .heroHeading{
         font-size: 32px;
         line-height: 140%;
+    }
+
+    .company {
+        height: 70px;
     }
 }
 
