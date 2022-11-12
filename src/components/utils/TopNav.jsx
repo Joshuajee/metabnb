@@ -7,10 +7,10 @@ import Container from "./Container";
 import SideNav from "./SideNav";
 
 const links = [
-    {name: "Home", link: "#"},
-    {name: "Place to stay", link: "#"},
-    {name: "NFTs", link: "#"},
-    {name: "Community", link: "#"}
+    {name: "Home", link: "/"},
+    {name: "Place to stay", link: "/place-to-stay"},
+    {name: "NFTs", link: "/"},
+    {name: "Community", link: "/"}
 ]
 
 

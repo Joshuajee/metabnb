@@ -125,6 +125,14 @@
     line-height: 22px;
 }
 
+.location {
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    height: 48px;
+    width: 161px;
+}
+
 
 @media only screen and (min-width: 640px) {
     .heroHeading{

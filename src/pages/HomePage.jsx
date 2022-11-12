@@ -38,7 +38,7 @@ function HomePage() {
     
             <CompanySection />
             
-            <h2 className={`${styles.headingTwo} my-4`}>Inspiration for your next adventure</h2>
+            <h2 className={`${styles.headingTwo} my-4 mb-10`}>Inspiration for your next adventure</h2>
     
             <CollectionContainer>
                 {
@@ -47,6 +47,8 @@ function HomePage() {
                     })
                 }
             </CollectionContainer>
+
+            <div className="mb-12"></div>
 
             <CallToAction />
 

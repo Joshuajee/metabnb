@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Red Rose'
+  font-family: 'Red Rose';
+  color: #434343;
 }
