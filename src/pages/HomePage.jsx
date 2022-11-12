@@ -13,6 +13,8 @@ import house6 from "./../assets/cards/house6.png";
 import house7 from "./../assets/cards/house7.png";
 import house8 from "./../assets/cards/house8.png";
 import CallToAction from "../components/homepage/CallToAction";
+import TopNav from "../components/utils/TopNav";
+import Footer from "../components/utils/Footer";
   
 const assets = [
     {   image: house2   },
@@ -30,6 +32,8 @@ function HomePage() {
     return (
         <div>
 
+            <TopNav />
+
             <HeroSection />
     
             <CompanySection />
@@ -38,14 +42,15 @@ function HomePage() {
     
             <CollectionContainer>
                 {
-                assets.map((asset, index) => {
-    
-                    return <AssetCard key={index} asset={asset} />
-                })
+                    assets.map((asset, index) => {
+                        return <AssetCard key={index} asset={asset} />
+                    })
                 }
             </CollectionContainer>
 
             <CallToAction />
+
+            <Footer />
 
         </div>
     );
