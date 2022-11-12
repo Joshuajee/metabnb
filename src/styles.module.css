@@ -133,6 +133,41 @@
     width: 161px;
 }
 
+.overlay {
+    background: rgba(64, 64, 64, 0.3);
+}
+
+.modal {
+    background-color: #FFFFFF;
+    max-width: 600px;
+    width: 100%;
+    height: 326px;
+    border-radius: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.modalTitle {
+    border-bottom: 1px solid #CFD8DC;
+}
+
+.modal h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.modal > div > div {
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    height: 68px;
+    cursor: pointer;
+}
+
+.modal > div > div:hover {
+    border: 1px solid #CFD8DC;
+}
 
 @media only screen and (min-width: 640px) {
     .heroHeading{
