@@ -8,8 +8,8 @@ import styles from "./../../styles.module.css";
 
 const CompanySection = () => {
     return (
-        <div className={`${styles.company} w-100 px-24 py-4`}>
-            <div className="flex justify-between">
+        <div className={`${styles.company}`}>
+            <div className="flex justify-between px-24 py-3">
                 <div><img src={mbToken} alt={"mb-token"}/></div>
                 <div><img src={metamask} alt={"metamask"}/></div>
                 <div><img src={opensea} alt={"opensea"}/></div>
