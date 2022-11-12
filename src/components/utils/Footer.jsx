@@ -5,6 +5,7 @@ import footerLogo from "./../../assets/footer-logo.png";
 import facebook from "./../../assets/socials/facebook.png";
 import twitter from "./../../assets/socials/twitter.png";
 import instagram from "./../../assets/socials/instagram.png";
+import Container from "./Container";
 
 
 const community = [
@@ -30,38 +31,41 @@ const aboutus = [
 
 const Footer = () => {
     return (
-        <footer className={`${styles.footer} pt-10 px-20`}>
+        <footer className={`${styles.footer} pt-10`}>
 
-            <div className="flex">
+            <Container>
 
-                <div className="basis-2/5">
+                <div className="flex flex-col sm:flex-row sm:basis-full w-full justify-start">
+
+                    <div className="sm:basis-full  xl:basis-2/6">
+                        
+                        <img src={footerLogo} alt={"home"}/>
+
+                        <div className="mt-8 sm:mt-24 flex w-28 justify-between">
+                            <a href="/"> <img src={facebook} alt="facebook" /> </a> 
+                            <a href="/"> <img src={twitter} alt="twitter" /> </a>
+                            <a href="/"> <img src={instagram} alt="Instagram" /> </a>
+                        </div>
                     
-                    <img src={footerLogo} alt={"home"}/>
-
-                    <div className="mt-28 flex w-28 justify-between">
-                        <a href="/"> <img src={facebook} alt="facebook" /> </a> 
-                        <a href="/"> <img src={twitter} alt="twitter" /> </a>
-                        <a href="/"> <img src={instagram} alt="Instagram" /> </a>
                     </div>
 
-                    <div className="mt-16">
-                        <text>&copy; 2022 Metabnb</text>
+                    <div className="flex flex-col sm:flex-row sm:basis-full xl:basis-3/6 sm:justify-between">
+    
+                        <FooterLinks title={"Community"} links={community} />
+
+                        <FooterLinks title={"Places"} links={places} />
+            
+                        <FooterLinks title={"About Us"} links={aboutus} />        
+
                     </div>
-                
-                </div>
-
-
-                <div className="flex basis-2/5 justify-between">
- 
-                    <FooterLinks title={"Community"} links={community} />
-
-                    <FooterLinks title={"Places"} links={places} />
-        
-                    <FooterLinks title={"About Us"} links={aboutus} />        
 
                 </div>
 
-            </div>
+                <div className="text-center mt-10 sm:text-left">
+                    <p>&copy; 2022 Metabnb</p>
+                </div>
+
+            </Container>
 
         </footer>
     );

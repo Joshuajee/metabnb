@@ -114,7 +114,8 @@
 .footer {
     background: #1D1D1E;
     color: #FFF;
-    height:  322px;
+    /* height:  322px; */
+    height: fit-content;
 }
 
 .footer h4 {
