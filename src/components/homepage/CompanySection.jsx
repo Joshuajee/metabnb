@@ -1,4 +1,3 @@
-import Container from "../utils/Container";
 import mbToken from "./../../assets/mb-token.png";
 import metamask from "./../../assets/metamask.png";
 import opensea from "./../../assets/opensea.png";
