@@ -70,12 +70,12 @@ function PlaceToStay() {
                         <div className="flex justify-end md:justify-between items-center">
             
                             {
-                                categories.map((item, index) => <span className="hidden md:flex text-base md:text-xl" key={index}>{item}</span>)
+                                categories.map((item, index) => <span className="cursor-pointer hidden md:flex text-base md:text-xl" key={index}>{item}</span>)
                             }
 
                             <DropDown categories={categories} className="md:hidden"/>
 
-                            <div className={`${styles.location} flex items-center justify-center md:mr-8 lg:mr-16`}>
+                            <div className={`${styles.location} cursor-pointer flex items-center justify-center md:mr-8 lg:mr-16`}>
                                 <div className={'w-full flex justify-between px-4'}>
                                     <div className="text-base">Location</div>
                                     <div> <img src={settings} alt="settings" /></div>
