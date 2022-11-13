@@ -22,6 +22,7 @@ import house13 from "./../assets/cards/house13.png";
 import house14 from "./../assets/cards/house14.png";
 import house15 from "./../assets/cards/house15.png";
 import house16 from "./../assets/cards/house16.png";
+import DropDown from "../components/utils/DropDown";
 
   
 const assets = [
@@ -57,36 +58,37 @@ const categories = [
 function PlaceToStay() {
     return (
         <div>
+
             <TopNav />
 
-            <Container>
+            <div className="flex justify-center">
 
-                <div className="flex justify-center">
+                <div className="w-full max-w-screen-2xl">
 
-                    <div className="w-full flex items-center max-w-screen-2xl">
+                    <Container>
 
-                        <div className="w-8/12 flex justify-between">
+                        <div className="flex justify-end md:justify-between items-center">
             
                             {
-                                categories.map((item, index) => <span className="text-xl" key={index}>{item}</span>)
+                                categories.map((item, index) => <span className="hidden md:flex text-base md:text-xl" key={index}>{item}</span>)
                             }
-        
-                        </div>
 
-                        <div className="w-1/12 h-12"></div>
+                            <DropDown categories={categories} className="md:hidden"/>
 
-                        <div className={`${styles.location} flex items-center justify-center`}>
-                            <div className={'w-full flex justify-between px-4'}>
-                                <div className="text-base">Location</div>
-                                <div> <img src={settings} alt="settings" /></div>
+                            <div className={`${styles.location} flex items-center justify-center md:mr-8 lg:mr-16`}>
+                                <div className={'w-full flex justify-between px-4'}>
+                                    <div className="text-base">Location</div>
+                                    <div> <img src={settings} alt="settings" /></div>
+                                </div>
                             </div>
+
                         </div>
-                    
-                    </div>
+
+                    </Container>
 
                 </div>
 
-            </Container>
+            </div>
 
             <CollectionContainer>
                 {
