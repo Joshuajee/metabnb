@@ -61,23 +61,29 @@ function PlaceToStay() {
 
             <Container>
 
-                <div className="flex items-center">
+                <div className="flex justify-center">
 
-                    <div className="w-8/12 flex justify-between">
-                        {
-                            categories.map((item, index) => <span className="text-xl" key={index}>{item}</span>)
-                        }
-                    </div>
+                    <div className="w-full flex items-center max-w-screen-2xl">
 
-                    <div className="w-1/12 h-12"></div>
-
-                    <div className={`${styles.location} flex items-center justify-center`}>
-                        <div className={'w-full flex justify-between px-4'}>
-                            <div className="text-base">Location</div>
-                            <div> <img src={settings} alt="settings" /></div>
+                        <div className="w-8/12 flex justify-between">
+            
+                            {
+                                categories.map((item, index) => <span className="text-xl" key={index}>{item}</span>)
+                            }
+        
                         </div>
+
+                        <div className="w-1/12 h-12"></div>
+
+                        <div className={`${styles.location} flex items-center justify-center`}>
+                            <div className={'w-full flex justify-between px-4'}>
+                                <div className="text-base">Location</div>
+                                <div> <img src={settings} alt="settings" /></div>
+                            </div>
+                        </div>
+                    
                     </div>
-                
+
                 </div>
 
             </Container>
