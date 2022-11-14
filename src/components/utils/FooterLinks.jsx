@@ -4,7 +4,7 @@ const FooterLinks = ({title, links}) => {
     return (
         <div>
             
-            <h4 className="mt-6 sm:mt-0">{title}</h4>
+            <h4 className="mt-6 md:mt-0">{title}</h4>
 
             {
                 links.map((link, index) => {

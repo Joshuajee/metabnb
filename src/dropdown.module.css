@@ -11,21 +11,23 @@
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
+    text-indent: 0.5em;
     z-index: 1;
     margin-top: 10px;
     margin-left: -80px;
+    border-radius: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .dropdownContent p {
-    height: 30px;   
-    text-align: center;
-    border-radius: 8px;
+    height: 40px;   
+    line-height: 2.2;
     cursor: pointer;
 }
 
 .dropdownContent p:hover {
-    background-color: #eee7e7;
+    background-color: #cfcccc;
 }
   
 .dropdown:hover .dropdownContent {

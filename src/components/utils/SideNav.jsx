@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import styles from "./../../styles.module.css";
+import closeImg from "./../../assets/modal/close.png"
 
-const SideNav = ({links, show, setShow, open}) => {
+const SideNav = ({links, show, setShow, open, active}) => {
 
     const close = () => {
         setShow(false)
@@ -13,11 +14,16 @@ const SideNav = ({links, show, setShow, open}) => {
 
             <div className={`fixed top-0 left-0 bg-white h-full w-64 p-4 transition duration-300 delay-150  ease-in ${show ? "scale-x-100" : "scale-x-0"}`}>
 
+                <div className="flex justify-end">
+                    <button onClick={close}> <img src={closeImg} alt="close" /> </button> 
+                </div>
+
                 {
                     links.map((link, index) => {
                         return ( 
                             <Link 
-                                className={`${styles.navLinks} block text-center h-10 rounded-lg my-2 hover:border-rose-700 hover:border-2`} 
+                                style={{color: active(link.link)}} 
+                                className={`${styles.navLinks} ${active(link.link)} block text-center h-10 rounded-lg my-2`} 
                                 key={index} 
                                 to={link.link}
                                 onClick={close}> 

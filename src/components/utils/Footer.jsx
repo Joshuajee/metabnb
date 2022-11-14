@@ -35,13 +35,13 @@ const Footer = () => {
 
             <Container>
 
-                <div className="flex flex-col sm:flex-row sm:basis-full w-full justify-start">
+                <div className="flex flex-col md:flex-row md:basis-full w-full justify-start">
 
-                    <div className="sm:basis-full  xl:basis-2/6">
+                    <div className="md:basis-full  xl:basis-2/6">
                         
                         <img src={footerLogo} alt={"home"}/>
 
-                        <div className="mt-8 sm:mt-24 flex w-28 justify-between">
+                        <div className="mt-8 md:mt-24 flex w-28 justify-between">
                             <a href="/"> <img src={facebook} alt="facebook" /> </a> 
                             <a href="/"> <img src={twitter} alt="twitter" /> </a>
                             <a href="/"> <img src={instagram} alt="Instagram" /> </a>
@@ -49,7 +49,7 @@ const Footer = () => {
                     
                     </div>
 
-                    <div className="flex flex-col sm:flex-row sm:basis-full xl:basis-3/6 sm:justify-between">
+                    <div className="grid grid-cols-2  md:flex md:flex-row md:basis-full xl:basis-3/6 md:justify-between">
     
                         <FooterLinks title={"Community"} links={community} />
 
@@ -61,7 +61,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="text-center mt-10 sm:text-left">
+                <div className="text-center mt-10 md:text-left">
                     <p>&copy; 2022 Metabnb</p>
                 </div>
 
