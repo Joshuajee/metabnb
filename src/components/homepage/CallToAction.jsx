@@ -14,7 +14,7 @@ const CallToAction = () => {
 
                     <div className="my-10 lg:my-20 flex flex-col sm:flex-row items-center justify-center content-center h-full">
 
-                        <div className="basis-full sm:basis-2/5 items-center contents-center">
+                        <div data-aos="fade-right" className="basis-full sm:basis-2/5 items-center contents-center">
 
                             <h2>Metabnb NFTs</h2>
 
@@ -29,7 +29,7 @@ const CallToAction = () => {
                             <button className="px-10 py-3 mt-4 lg:mt-14 text-base"> Learn more </button>
                         </div>
 
-                        <div className="basis-full sm:basis-3/5 mt-10 md:mt-0">
+                        <div data-aos="fade-left" className="basis-full sm:basis-3/5 mt-10 md:mt-0">
                             <img src={ctaImage} alt="cta" />
                         </div>
                     

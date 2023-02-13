@@ -14,7 +14,7 @@ const HeroSection = () => {
 
                     <div className="grid md:grid-cols-2 gap-10">
 
-                        <div className="flex items-center">
+                        <div data-aos="fade-right" className="flex items-center">
 
                             <div>
 
@@ -36,7 +36,7 @@ const HeroSection = () => {
 
                         </div>
 
-                        <div className="flex justify-center">
+                        <div data-aos="fade-left" className="flex justify-center">
 
                             <img src={hero} alt="hero-img" />
 

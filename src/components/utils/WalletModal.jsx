@@ -8,7 +8,7 @@ const WalletModal = ({show, close}) => {
 
 
     return(
-        <div className={`fixed w-full h-full top-0 left-0 ${show ? "" : "hidden"}`}>
+        <div className={`fixed w-full h-full top-0 left-0 ${show ? "" : "hidden"} z-10`}>
 
             <div className={`w-full h-full ${styles.overlay}`} onClick={close}>  </div>
 

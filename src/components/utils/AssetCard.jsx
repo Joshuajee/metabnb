@@ -5,7 +5,7 @@ import styles from "./../../styles.module.css";
 
 const AssetCard = ({asset}) => {
     return (
-        <div className={`${styles.assetCard} p-4`}>
+        <div data-aos="fade-up" className={`${styles.assetCard} p-4`}>
            
             <div>
                 <img className="w-full" src={asset.image} alt={"house"}/>

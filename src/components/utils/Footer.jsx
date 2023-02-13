@@ -35,7 +35,7 @@ const Footer = () => {
 
             <Container>
 
-                <div className="flex flex-col md:flex-row md:basis-full w-full justify-start">
+                <div data-aos="fade-in" className="flex flex-col md:flex-row md:basis-full w-full justify-start">
 
                     <div className="md:basis-full  xl:basis-2/6">
                         
